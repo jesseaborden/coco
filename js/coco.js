@@ -100,8 +100,19 @@ $("#row-four").mouseleave(function() {
      $( ".sub-head-four" ).fadeOut();
   });
 
-jQuery('#myModal').on('hidden.bs.modal', function (e) {
-  // do something...
-  jQuery('#myModal iframe').attr("src", jQuery("#myModal  iframe").attr("src"));
+$(window).resize(function(){     
+  console.log($('video').width())
+       if ($('video').width() < 768 ){
+              $( "#wolf" ).hide();
+              $( "#waves" ).hide();
+              $( "#flamingo" ).hide();
+              $( "#limo" ).hide();
+       }
+
 });
+
+jQuery('#myModal, #myModal2, #myModal3, #myModal4').on('hidden.bs.modal', function (e) {
+  jQuery('#myModal iframe, #myModal2 iframe, #myModal3 iframe, #myModal4 iframe').attr("src", jQuery("#myModal  iframe, #myModal2 iframe, #myModal3 iframe, #myModal4 iframe").attr("src"));
+});
+
 

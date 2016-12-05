@@ -150,14 +150,14 @@ h3.row-header {
 
 
 a {
-    text-decoration: none;
-    color: #353535;
+    text-decoration: none !important;
+    color: inherit;
 }
 
- a:hover, a:active {
-    color:#fff;
+a:hover, a:active {
     text-decoration: none;
- }
+    color: inherit;
+}
 
 
 .modal-dialog {
@@ -184,13 +184,16 @@ a {
 
 div {
     transition-property: color;
-    transition-duration: 1s;
+    transition-duration: .2s;
     position: relative;
-    color:#353535
 }
 
 #row-three:hover,#row-two:hover,#row-one:hover, #row-four:hover{
-    color: #fff !important;
+    color: #fff ;
+}
+
+#row-three,#row-two,#row-one, #row-four{
+    color:#353535
 }
 
 p.track-header {
@@ -259,9 +262,6 @@ li#nav-two {
         display: none;
     }
     
-    #letter-contact {
-        display: initial;
-    }
     
     li#nav-two {
         margin-left: 0;
@@ -271,9 +271,6 @@ li#nav-two {
     h2 {
     font-size: 50px;
 }
-    li#nav-three {
-    display: none;
-    }
     
     .play-icon {
     padding-top: 130px;
@@ -281,11 +278,16 @@ li#nav-two {
 }
 
 
-@media (max-width: 480px){
-    
+@media (max-width: 768px){
+    video {
+        display: none !important;
+    }
     .track-header, .ep-header {
         display: none!important;
     }
+    #row-three,#row-two,#row-one, #row-four{
+    color:#353535 !important;
+}
     
 }
 
