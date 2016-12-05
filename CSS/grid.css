@@ -31,11 +31,11 @@ video::-webkit-media-controls {
 .row {
     padding-bottom: 30px;
     padding-top: 30px;
-    border-bottom: #353535 solid 1px;
+    border-bottom: #EEEEEE solid 1px;
 }
 
 #row-top{
-    border-top:#353535 solid 1px;
+    border-top:#EEEEEE solid 1px;
 }
 
 
@@ -57,12 +57,16 @@ h3.row-header {
 }
 /*Nav Styles*/
 
+#nav h1 {
+    font-size: 46px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    vertical-align: super;
+}
+
 ul#nav {
     padding-left: 0px;
     width: 100%;
-    margin-bottom: 30px;
-    margin-top: 30px;
-
 }
 
 ul#nav li {
@@ -75,7 +79,7 @@ li#nav-one {
     text-align: left;
     font-size: 15px;
     position: absolute;
-    top:20px;
+    top: 18px;
     left:0%;
 }
 
@@ -89,7 +93,7 @@ li#nav-three {
     text-align: right;
     font-size: 15px;
     position: absolute;
-    top: 20px;
+    top: 18px;
     right: 3px;
     width: 50px!important;
 }
@@ -250,9 +254,11 @@ li#nav-two {
         display: none;
     }
 
-@media (min-width: 1200px){
+
+
+@media (min-width: 768px){
 .container {
-    width: 1400px;
+    width: 98%;
 }
 }
 
@@ -291,3 +297,8 @@ li#nav-two {
     
 }
 
+@media (min-width: 1400px){
+.container {
+    width: 1400px;
+}
+}
