@@ -99,3 +99,9 @@ $( "#row-four" ).hover(function() {
 $("#row-four").mouseleave(function() {
      $( ".sub-head-four" ).fadeOut();
   });
+
+jQuery('#myModal').on('hidden.bs.modal', function (e) {
+  // do something...
+  jQuery('#myModal iframe').attr("src", jQuery("#myModal  iframe").attr("src"));
+});
+

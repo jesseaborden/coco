@@ -89,8 +89,8 @@ li#nav-three {
     text-align: right;
     font-size: 15px;
     position: absolute;
-    top:40px;
-    right:0%;
+    top: 20px;
+    right: 3px;
     width: 50px!important;
 }
 
@@ -149,10 +149,15 @@ h3.row-header {
 
 
 
-a, a:hover, a:active {
+a {
     text-decoration: none;
     color: #353535;
 }
+
+ a:hover, a:active {
+    color:#fff;
+    text-decoration: none;
+ }
 
 
 .modal-dialog {
@@ -185,7 +190,7 @@ div {
 }
 
 #row-three:hover,#row-two:hover,#row-one:hover, #row-four:hover{
-    color: #fff;
+    color: #fff !important;
 }
 
 p.track-header {
