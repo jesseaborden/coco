@@ -1,4 +1,7 @@
+@import url("//hello.myfonts.net/count/329d25");
 
+  
+@font-face {font-family: 'RomanaBT-Roman';src: url('../MyFontsWebfontsKit/webfonts/329D25_0_0.eot');src: url('../MyFontsWebfontsKit/webfonts/329D25_0_0.eot?#iefix') format('embedded-opentype'),url('../MyFontsWebfontsKit/webfonts/329D25_0_0.woff2') format('woff2'),url('../MyFontsWebfontsKit/webfonts/329D25_0_0.woff') format('woff'),url('../MyFontsWebfontsKit/webfonts/329D25_0_0.ttf') format('truetype');}
 
 h4 {
   margin-top: 25px;
@@ -8,11 +11,6 @@ h4 {
     margin: 0;
     padding:0;
 }
-
-
-
-
-
 
 /*General*/
 
@@ -37,8 +35,6 @@ video::-webkit-media-controls {
 #row-top{
     border-top:#EEEEEE solid 1px;
 }
-
-
 
 #row-four {
     border-bottom: none;
@@ -141,7 +137,7 @@ h2 {
 h3.row-header {
     margin: 10px 0px;
     font-size:20px;
-    font-family: Romana;
+    font-family: RomanaBT-Roman !important;
 }
 
 
@@ -223,13 +219,13 @@ span.track-header {
     display: none;
 }
 
-img#back-pic {
+#back-pic {
     position: absolute;
     top: 65px;
     left: 39%;
 }
 
-img#back-pic {
+#back-pic {
     position: absolute;
     left: 0;
     right: 0;
@@ -238,11 +234,11 @@ img#back-pic {
     z-index: -10000;
 }
 
-h2, li#nav-two {
-    font-family: 'Romana'!important;
+h2, #nav-two {
+    font-family: 'RomanaBT-Roman'!important;
 }
 
-li#nav-two {
+#nav-two {
     font-size: 40px;
 }
 
@@ -251,20 +247,20 @@ li#nav-two {
 }
 
 #letter-contact {
-        display: none;
+    display: none;
     }
 
 
 
 @media (min-width: 768px){
-.container {
-    width: 98%;
-}
+    .container {
+        width: 98%;
+    }
 }
 
 @media (max-width: 780px){
     
-    li#nav-one {
+    #nav-one {
         display: none;
     }
     

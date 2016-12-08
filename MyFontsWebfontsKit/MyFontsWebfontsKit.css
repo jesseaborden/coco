@@ -1,6 +1,6 @@
 /**
  * @license
- * MyFonts Webfont Build ID 3155790, 2016-01-18T16:11:34-0500
+ * MyFonts Webfont Build ID 3317029, 2016-12-05T13:56:09-0500
  * 
  * The fonts listed in this notice are subject to the End User License
  * Agreement(s) entered into by the website owner. All other parties are 
@@ -15,8 +15,8 @@
  * URL: http://www.myfonts.com/fonts/bitstream/romana/bold/
  * 
  * 
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=3155790
- * Licensed pageviews: 10,000
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3317029
+ * Licensed pageviews: 20,000
  * Webfonts copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
  * 
  * © 2016 MyFonts Inc
@@ -24,11 +24,7 @@
 
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/30274e");
+@import url("//hello.myfonts.net/count/329d25");
 
   
-@font-face {font-family: 'RomanaBT-Roman';src: url('webfonts/30274E_0_0.eot');src: url('webfonts/30274E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/30274E_0_0.woff2') format('woff2'),url('webfonts/30274E_0_0.woff') format('woff'),url('webfonts/30274E_0_0.ttf') format('truetype');}
- 
-  
-@font-face {font-family: 'RomanaBT-Bold';src: url('webfonts/30274E_1_0.eot');src: url('webfonts/30274E_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/30274E_1_0.woff2') format('woff2'),url('webfonts/30274E_1_0.woff') format('woff'),url('webfonts/30274E_1_0.ttf') format('truetype');}
- 
+@font-face {font-family: 'RomanaBT-Roman';src: url('webfonts/329D25_0_0.eot');src: url('webfonts/329D25_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/329D25_0_0.woff2') format('woff2'),url('webfonts/329D25_0_0.woff') format('woff'),url('webfonts/329D25_0_0.ttf') format('truetype');} 
